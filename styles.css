@@ -32,7 +32,24 @@ h1 {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-bottom: 12px;
 }
 #btnCambiar:hover {
   background: #2ec2a2;
+}
+
+a.bonito-link {
+  color: #3477db;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s ease, border-color 0.3s ease;
+  cursor: pointer;
+}
+
+a.bonito-link:hover,
+a.bonito-link:focus {
+  color: #1a4f9c;
+  border-color: #1a4f9c;
+  outline: none;
 }
